@@ -25,10 +25,6 @@ indices:
         select: head > meta[property="og:image"]
         value: |
           match(attribute(el, 'content'), 'https:\/\/[^/]+(\/.*)')
-      description:
-        select: main > div:nth-child(2)
-        value: |
-          innerHTML(el)
       published:
         select: head > meta[name="publication-date"]
         value: |
