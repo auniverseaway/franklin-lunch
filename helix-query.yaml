@@ -30,7 +30,7 @@ indices:
         value: |
           innerHTML(el)
       published:
-        select: head > meta[property="publication-date"]
+        select: head > meta[name="publication-date"]
         value: |
           attribute(el, 'content')
       lastModified:
