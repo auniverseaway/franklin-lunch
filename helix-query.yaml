@@ -17,6 +17,10 @@ indices:
         select: main h2:first-of-type
         value: |
           textContent(el)
+      description:
+        select: main > div:nth-child(2)
+        value: |
+          innerHTML(el)
       duration:
         select: main .podcast-metadata > div > div:last-of-type
         value: |
