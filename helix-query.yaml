@@ -6,6 +6,7 @@ indices:
     include:
       - '/podcast/**'
     exclude:
+      - '/podcast/index'
       - '/podcast/drafts/**'
     target: /podcast/query-index
     properties:
